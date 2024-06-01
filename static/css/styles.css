@@ -1,0 +1,39 @@
+.avail-headers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.missing-headers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.avail-headers p{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0px 10px;
+    text-align:center;
+    background: green;
+    color: white;
+}
+.missing-headers p{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0px 10px;
+    text-align:center;
+    background: red;
+    color: white;
+}
+
+form{
+    display: flex;
+}
+.form-control{
+    margin-right: 20px;
+    width: 300px;
+    border-color: rgb(138, 131, 131);
+}
+
+.detail-box{
+    margin-top: 50px;
+}
