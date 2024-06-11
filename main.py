@@ -87,7 +87,8 @@ def details():
         return render_template("details.html", URL=req_url, NO_HEADERS=NO_HEADERS, AVAIL_HEADERS=AVAIL_HEADERS, IP=ip)
 
 
-
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
 
